@@ -1,4 +1,5 @@
 codecov==2.0.15
+django
 green==2.12.1
 invoke==1.2.0
 pycodestyle==2.4.0

@@ -1,6 +1,8 @@
 codecov==2.0.15
 django
+django-heroku
 green==2.12.1
+gunicorn
 invoke==1.2.0
 pycodestyle==2.4.0
 pydocstyle==2.1.1
@@ -10,3 +12,4 @@ radon==2.2.0
 sphinx==1.8.1
 sphinx-autobuild==0.7.1
 sphinx_rtd_theme==0.4.1
+whitenoise

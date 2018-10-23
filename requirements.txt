@@ -1,9 +1,12 @@
 codecov==2.0.15
 django
+djangorestframework
+django-filter
 django-heroku
 green==2.12.1
 gunicorn
 invoke==1.2.0
+markdown
 pycodestyle==2.4.0
 pydocstyle==2.1.1
 PyGithub

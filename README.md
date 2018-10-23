@@ -1,4 +1,4 @@
-# github-metrics-dashboard
+# github-metrics-backend
 Repository for backend with github metrics
 
 

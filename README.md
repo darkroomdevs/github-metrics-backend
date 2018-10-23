@@ -1,5 +1,5 @@
 # github-metrics-dashboard
-Repository for dashboard with github metrics
+Repository for backend with github metrics
 
 
 ## Interesting links

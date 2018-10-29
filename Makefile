@@ -7,6 +7,8 @@ help:
 	@echo "test					runs tests"
 	@echo "flake				runs flake8 linter"
 	@echo "run					runs project on default port"
+	@echo "distclean			cleans the project"
+	@echo "clean 				delete cache folders"
 
 venv: venv/bin/activate
 venv/bin/activate: requirements-to-freeze.txt

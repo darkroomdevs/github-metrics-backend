@@ -4,8 +4,6 @@ sudo: required
 language: python
 cache: pip
 python:
-  - 3.6.5
+  - 3.7
 install:
-  - pip install -r requirements.txt
-script:
-  - invoke travis
+  - pip install -r requirements-to-freeze.txt

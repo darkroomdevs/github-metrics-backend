@@ -8,4 +8,4 @@ python:
 install:
   - pip install -r requirements-to-freeze.txt
 script:
-  - make test
+  - make ci

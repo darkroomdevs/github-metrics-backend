@@ -6,6 +6,6 @@ cache: pip
 python:
   - 3.6.5
 install:
-  - pip install -r requirements.txt
+  - pip install -r requirements-to-freeze.txt
 script:
-  - invoke travis
+  - make ci

@@ -8,12 +8,12 @@ class Command(createsuperuser.Command):
     def add_arguments(self, parser):
         super(Command, self).add_arguments(parser)
         parser.add_argument(
-            '--password', dest='password', default=None,
-            help='Specifies the password for the superuser.',
+                '--password', dest='password', default=None,
+                help='Specifies the password for the superuser.',
         )
         parser.add_argument(
-            '--preserve', dest='preserve', default=False, action='store_true',
-            help='Exit normally if the user already exists.',
+                '--preserve', dest='preserve', default=False, action='store_true',
+                help='Exit normally if the user already exists.',
         )
 
     def handle(self, *args, **options):

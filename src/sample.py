@@ -1,2 +1,2 @@
-def sample(a, b):
+def multiply(a, b):
     return a ** b

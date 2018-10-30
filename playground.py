@@ -1,5 +1,6 @@
 import os
 from configparser import ConfigParser
+
 from github import Github
 
 
@@ -9,19 +10,20 @@ def retrieve_default(section="MAIN", filename="config.ini"):
     Usually retrieves from config.ini
     """
     try:
-        FILE_PATH = f"{str(os.getcwd())}/bot/{filename}"
+        file_path = f"{str(os.getcwd())}/bot/{filename}"
         config = ConfigParser()
-        with open(FILE_PATH) as config_file:
+        with open(file_path) as config_file:
             config.read_file(config_file)
         return config[section]
     except FileNotFoundError:
-        print("Não há arquivo de configuração, verificar 'config_sample.ini'")
+        print("Configuration file not found: 'config_sample.ini'")
         raise FileNotFoundError
 
 
-class Github():
+class GithubConfigurer:
     def __init__(self):
         self.g = Github(retrieve_default())
+
 
 if __name__ == '__main__':
     print('Hello World')

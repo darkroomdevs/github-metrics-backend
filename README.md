@@ -1,7 +1,8 @@
 # GitHub Metrics (Backend)
 
 [![Build Status](https://travis-ci.org/darkroomdevs/github-metrics-backend.svg?branch=master)](https://travis-ci.org/darkroomdevs/github-metrics-backend)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b08b3eb368124ed7afc6efed29a19f71)](https://www.codacy.com/app/darkroomdevs/github-metrics-backend?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=darkroomdevs/github-metrics-backend&amp;utm_campaign=Badge_Grade)
+[![Maintainability](https://api.codeclimate.com/v1/badges/1b0f23ca525aae0c746d/maintainability)](https://codeclimate.com/github/darkroomdevs/github-metrics-backend/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/1b0f23ca525aae0c746d/test_coverage)](https://codeclimate.com/github/darkroomdevs/github-metrics-backend/test_coverage)
 
 Repository for the `backend` of the GitHub Metrics project.
 

@@ -107,6 +107,8 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+staticfiles/
+
 # User related
 config.ini
-staticfiles/
+

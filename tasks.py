@@ -75,3 +75,8 @@ def create_admin(c):
     Runs command that Travis CI runs
     """
     c.run('python manage.py createsuperuser2 --username test1 --password test1 --noinput --email "blank@email.com"')
+
+
+@task
+def playground(c):
+    c.run('python playground.py')

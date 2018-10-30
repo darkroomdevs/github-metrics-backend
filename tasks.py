@@ -1,5 +1,4 @@
 import os
-import pathlib
 import sys
 
 from invoke import task
@@ -35,6 +34,7 @@ def run(c, no_toolbar=False):
     else:
         manage(c, 'runserver 0.0.0.0:8000', env=env)
 
+
 #
 # DB management
 #
@@ -47,9 +47,11 @@ def db(c, migrate_only=False):
         manage(c, 'makemigrations')
     manage(c, 'migrate')
 
+
 @task
 def migrate(c):
     c.run('python manage.py migrate')
+
 
 @task
 def install(c):
@@ -58,12 +60,14 @@ def install(c):
     """
     c.run('pip install -r requirements.txt')
 
+
 @task
 def travis(c):
     """
     Runs command that Travis CI runs
     """
     c.run('python playground.py')
+
 
 @task
 def create_admin(c):

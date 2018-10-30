@@ -1,5 +1,9 @@
+from unittest import TestCase
+
 from src import sample
 
 
-def test_sample():
-    assert sample.sample(2, 5) == (2 ** 5)
+class SampleTest(TestCase):
+
+    def test_sample(self):
+        self.assertEqual(sample.multiply(2, 5), 2 ** 5)

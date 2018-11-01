@@ -66,7 +66,7 @@ def travis(c):
     """
     Runs command that Travis CI runs
     """
-    c.run('python playground.py')
+    c.run('green tests/test_sample.py')
 
 
 @task
